@@ -4,7 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link charset="UTF-8" media="screen" type="text/css" href="/test/matsumoto/site/css/reset.css" rel="stylesheet">
 	<link charset="UTF-8" media="screen" type="text/css" href="/test/matsumoto/site/css/input.css" rel="stylesheet">
-	<title>組込み関数</title>
+	<title>組込み関数ですよ</title>
 	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 	<script type="text/javascript" src="/test/matsumoto/site/scripts/shCore.js"></script>
 	<script type="text/javascript" src="/test/matsumoto/site/scripts/shBrushCss.js.js"></script>
@@ -46,7 +46,7 @@ $(document).ready(function(){
 	<div id="wrapper">
 		<div id="container">
 
-<h1>5 組込み関数</h1>
+<h1>5 組込み関数だお！</h1>
 <img id="banner" src="img/ini.jpg" alt="バナー(大)" border="0">
 <br />
 <p>目次</p>
