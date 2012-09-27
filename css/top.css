@@ -1,0 +1,507 @@
+@charset "Shift_JIS";
+
+
+/*////////////////////////////////////////////
+※記述順
+display
+list-style
+position
+float
+clear
+width
+height
+margin
+paddint
+border
+background
+color
+font
+text-decoration
+text-align
+vrtical-align
+white-space
+other text
+content
+////////////////////////////////////////////*/
+
+
+
+/************************************************
+
+全体的なスタイル
+
+************************************************/
+
+
+div#wrapper {
+	width:991px;
+	margin-left: auto;
+	margin-right: auto;
+	/*border: dashed 1px #ff00ea;*/
+	box-shadow: 0 3px 10px #666;
+}
+
+
+
+/************************************************
+
+ヘッダー
+
+************************************************/
+
+
+header {
+	width: 991px;
+	height: 200px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #d1d1d1), color-stop(0.59, #bababa), color-stop(0.21, #91bae4), color-stop(0.00, #b6e2fd));
+	background: -webkit-linear-gradient(top, #b6e2fd 0%, #91bae4 21%, #bababa 59%, #d1d1d1 100%);
+	background: -moz-linear-gradient(top, #b6e2fd 0%, #91bae4 21%, #bababa 59%, #d1d1d1 100%);
+	background: -o-linear-gradient(top, #b6e2fd 0%, #91bae4 21%, #bababa 59%, #d1d1d1 100%);
+	background: -ms-linear-gradient(top, #b6e2fd 0%, #91bae4 21%, #bababa 59%, #d1d1d1 100%);
+	background: linear-gradient(top, #b6e2fd 0%, #91bae4 21%, #bababa 59%, #d1d1d1 100%);
+	display: -moz-box;
+	display: -webkit-box;
+	border-radius: 5px;
+	box-shadow: 0 3px 10px #666;
+}
+
+header h1 {
+	width: 217px; height:46px;
+	padding-top: 65px;
+	padding-left: 25px;
+	color: #ffffff;
+	font-size: 500%;
+	font-stretch: ultra-expanded;
+	font-weight: bold;
+	text-shadow: 1px 1px 0 rgba(00, 55, 55, 0.3);
+	text-decoration: underline;
+	display: -moz-box;
+	display: -webkit-box;
+}
+
+
+
+/************************************************
+
+ナビ
+
+************************************************/
+
+
+nav {
+	margin-top: 3px;
+	width: 991px; height:24px;
+}
+
+nav ul li .btn1 {
+	text-align: center;
+	text-shadow: 1px 1px 3px black;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+	float: left;
+	margin-top: 1px;
+	margin-right: 1px;
+	padding-top: 4px;
+	list-style-type: none;
+	text-decoration: none;
+	color: #ffffff;
+	width: 88px;
+	height:20px;
+	color: #ffffff;
+	background-color: #46eafd;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #1a62db), color-stop(0.51, #3690f0), color-stop(0.50, #54a3ee), color-stop(0.00, #70b6f2));
+	background: -webkit-linear-gradient(top, #70b6f2 0%, #54a3ee 50%, #3690f0 51%, #1a62db 100%);
+	background: -moz-linear-gradient(top, #70b6f2 0%, #54a3ee 50%, #3690f0 51%, #1a62db 100%);
+	background: -o-linear-gradient(top, #70b6f2 0%, #54a3ee 50%, #3690f0 51%, #1a62db 100%);
+	background: -ms-linear-gradient(top, #70b6f2 0%, #54a3ee 50%, #3690f0 51%, #1a62db 100%);
+	background: linear-gradient(top, #70b6f2 0%, #54a3ee 50%, #3690f0 51%, #1a62db 100%);
+}
+
+nav ul li .btn1:hover {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #bcf4fd), color-stop(0.75, #87c2fb), color-stop(0.51, #6ba8e4), color-stop(0.50, #8fbff0), 	color-stop(0.20, #91bae4), color-stop(0.00, #b6e2fd));
+	background: -webkit-linear-gradient(top, #b6e2fd 0%, #91bae4 20%, #8fbff0 50%, #6ba8e4 51%, #87c2fb 75%, #bcf4fd 100%);
+	background: -moz-linear-gradient(top, #b6e2fd 0%, #91bae4 20%, #8fbff0 50%, #6ba8e4 51%, #87c2fb 75%, #bcf4fd 100%);
+	background: -o-linear-gradient(top, #b6e2fd 0%, #91bae4 20%, #8fbff0 50%, #6ba8e4 51%, #87c2fb 75%, #bcf4fd 100%);
+	background: -ms-linear-gradient(top, #b6e2fd 0%, #91bae4 20%, #8fbff0 50%, #6ba8e4 51%, #87c2fb 75%, #bcf4fd 100%);
+	background: linear-gradient(top, #b6e2fd 0%, #91bae4 20%, #8fbff0 50%, #6ba8e4 51%, #87c2fb 75%, #bcf4fd 100%);
+}
+
+nav ul li .btn {
+	text-align: center;
+	text-shadow: 1px 1px 3px black;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+	float: left;
+	margin-top: 1px;
+	margin-right: 1px;
+	padding-top: 4px;
+	list-style-type: none;
+	text-decoration: none;
+	width: 81px;
+	height:20px;
+	color: #ffffff;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.94, #2a2226), color-stop(0.52, #3d4240), color-stop(0.45, #586461), color-stop(0.00, #546569));
+	background: -webkit-linear-gradient(top, #546569 0%, #586461 45%, #3d4240 52%, #2a2226 94%);
+	background: -moz-linear-gradient(top, #546569 0%, #586461 45%, #3d4240 52%, #2a2226 94%);
+	background: -o-linear-gradient(top, #546569 0%, #586461 45%, #3d4240 52%, #2a2226 94%);
+	background: -ms-linear-gradient(top, #546569 0%, #586461 45%, #3d4240 52%, #2a2226 94%);
+	background: linear-gradient(top, #546569 0%, #586461 45%, #3d4240 52%, #2a2226 94%);
+	border-radius: 4px;
+}
+
+nav ul li .btn:hover {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #dee2e3), color-stop(0.72, #a1a1a1), color-stop(0.54, #939594), color-stop(0.52, #696d6c), color-stop(0.00, #737876));
+	background: -webkit-linear-gradient(top, #737876 0%, #696d6c 52%, #939594 54%, #a1a1a1 72%, #dee2e3 100%);
+	background: -moz-linear-gradient(top, #737876 0%, #696d6c 52%, #939594 54%, #a1a1a1 72%, #dee2e3 100%);
+	background: -o-linear-gradient(top, #737876 0%, #696d6c 52%, #939594 54%, #a1a1a1 72%, #dee2e3 100%);
+	background: -ms-linear-gradient(top, #737876 0%, #696d6c 52%, #939594 54%, #a1a1a1 72%, #dee2e3 100%);
+	background: linear-gradient(top, #737876 0%, #696d6c 52%, #939594 54%, #a1a1a1 72%, #dee2e3 100%);
+}
+
+
+
+
+/************************************************
+
+左カラム上
+
+************************************************/
+
+
+div#left {
+	float: left;
+	display: block;
+	/*clear: both;*/
+	width: 201px;
+	height: 1352px;
+	margin-top: 35px;
+	margin-left: 20px;
+	/*border: dashed 1px #999;*/
+}
+
+div#left h2 {
+	font-size: 105%;
+	font-weight: bold;
+	font-stretch: semi-condensed;
+}
+
+div#left p#news_underbar {
+	height: 7px;
+	background-color: #666;
+	text-indent: -9999px;
+}
+
+
+
+/************************************************
+news_container
+************************************************/
+
+
+div#left div#news_container {
+	display: box;
+	margin-top: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 5px;
+	width: 190px;
+	height: 85px;
+	border-bottom: 1px dashed #BBB;
+}
+
+div#left div#news_container p#news_title {
+	float: left;
+	margin-left: 5px;
+	font-size: 95%;
+	font-weight: bold;
+	color: #46eafd;
+}
+
+div#left div#news_container p#news_title:hover {
+	color: #599100;
+}
+
+
+
+
+div#left div#news_container p#news_date {
+	position: absolute;
+	float: right;
+	margin-top: 75px;
+	margin-left: 110px;
+	font-size: 50%;
+	color: #777;
+}
+
+div#left div#news_container dl {
+	position: absolute;
+	margin-top: 25px;
+}
+
+div#left div#news_container dl dt {
+	width: 50px;
+	height: 50px;
+	margin-left: 8px;
+	float: left;
+	border : solid 1px #000;
+}
+
+div#left div#news_container dl dt:hover {
+	border : solid 1px #333;
+	box-shadow: 0 3px 10px #666;
+-webkit-transition: 0.3s ease-in-out;
+}
+
+div#left div#news_container dl dd {
+	display: box;
+	margin-left: 15px;
+	width: 100px;
+	height: 66px;
+	float: right;
+	word-break: break-all;
+}
+
+
+
+/************************************************
+
+左カラム中
+
+************************************************/
+
+
+div#left div#info_container {
+	width: 190px;
+	height: 60px;
+	margin-top: 25px;
+}
+
+div#left p#info_underbar {
+	margin-top: 5px;
+	height: 2px;
+	background-color: #666;
+	text-indent: -9999px;
+}
+
+
+div#left p#info_article{
+	margin-top: 5px;
+	word-break: break-all;
+}
+
+
+
+/************************************************
+
+左カラム下
+
+************************************************/
+
+
+div#left div#twitter {
+	display: block;
+	margin-top: 35px;
+}
+
+
+
+/************************************************
+
+中央
+
+************************************************/
+
+
+div#center {
+	float: left;
+	width: 510px;
+	margin-top: 35px;
+	margin-left: 15px;
+	/*border: dashed 1px #000;*/
+}
+
+/************************************************
+main_contents
+************************************************/
+
+
+div#center div#main_contents {
+	width: 510px;
+	height: 550px;
+	/*border: dashed 1px #000;*/
+}
+
+/*div#center div#main_contents img#main_pict {
+	width: 510px;
+	height: 325px;
+	border : solid 1px #000;
+}*/
+
+
+div#center div#main_contents p#main_article {
+	margin-top : 5px;
+	width: 510px;
+	height : 60px;
+	word-break: break-all;
+}
+
+a#lead {
+	/*position: relative;*/
+	/*position: absolute;*/
+	/*margin-left: 440px;*/
+	float: right;
+	padding-left: 8px;
+	padding-top: 3px;
+	width: 70px;
+	height :20px;
+	background-color: #000;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	text-decoration: none;
+	color: white;
+}
+
+a#lead:hover {
+	background-color: #599100;
+}
+
+p#main_title {
+	margin-top: 30px;
+	padding-top: 20px;
+	font-size: 140%;
+	font-weight: bold;
+}
+
+p#underbar {
+	height: 2px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	background-color: #666;;
+}
+
+/************************************************
+sub_contents
+************************************************/
+
+
+div#sub_contents {
+	/*margin-top: 35px;*/
+}
+
+div#sub_contents_right {
+	float: left;
+}
+
+
+div#contentbox {
+	margin-top: 15px;
+	width: 248px;
+	height: 280px;
+	/*border: dashed 1px #000;*/
+}
+
+
+p#sub_title {
+	font-size: 100%;
+	font-weight: bold;
+}
+
+
+p#content_date {
+	float: right;
+	font-size: 50%;
+	color: #777;
+}
+
+
+p#sub_article {
+	word-break: break-all;
+	width: 248px;
+	height: 50px;
+	color: #666;
+}
+
+img#sub_pict {
+	padding : 2px;
+	border : solid 1px #000;
+}
+
+
+img#sub_pict:hover {
+	border : solid 1px #599100;
+}
+
+
+
+div#sub_contents_left {
+	margin-left: 14px;
+	float: left;
+}
+
+
+
+/************************************************
+
+右カラム
+
+************************************************/
+
+
+div#right {
+	float: left;
+	margin-top: 35px;
+	margin-left: 20px;
+	margin-bottom: 80px;
+}
+
+div#right dl dt{
+	display: none;
+}
+
+
+div#right img#banner {
+	margin-top: 15px;
+	border : solid 1px #000;
+}
+
+div#right img#banner:hover {
+	border : solid 1px #666;
+}
+
+
+
+/************************************************
+
+フッター
+
+************************************************/
+
+
+footer {
+	clear: both;
+	width: 991px;
+	height: 250px;
+
+	background-color: #222;
+}
+
+
+
+
+
+
+
+/************************************************
+
+一番下に
+
+************************************************/
+
+a#news_thumb {
+	
+}
+
+.notUnder {text-decoration: none; }
+
+
