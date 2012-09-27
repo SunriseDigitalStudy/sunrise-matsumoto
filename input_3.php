@@ -5,7 +5,9 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link charset="UTF-8" media="screen" type="text/css" href="/test/matsumoto/site/css/reset.css" rel="stylesheet">
 	<link charset="UTF-8" media="screen" type="text/css" href="/test/matsumoto/site/css/input.css" rel="stylesheet">
-	<title>組込み関数ですよ</title>
+
+	<title>組込み関数よ</title>
+
 	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 	<script type="text/javascript" src="/test/matsumoto/site/scripts/shCore.js"></script>
 	<script type="text/javascript" src="/test/matsumoto/site/scripts/shBrushCss.js.js"></script>
