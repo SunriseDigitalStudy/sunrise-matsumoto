@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- 櫻井が追加しました！！ -->
+<!-- 櫻井が追加しましたよ！！ -->
 <html>
 	<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
